@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  background-image: url("background2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 25rem;
+  margin-top: 9rem;
+
+  border: 0.5px solid #bc8d63;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 2px 2px 17px 5px #bc8d63;
+}
+.container .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  min-height: 600px;
+}
+.container .imageSection img {
+  height: auto;
+  width: auto;
+
+  max-width: 500px;
+  max-height: 700px;
+}
+.container .takeINfoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 10rem;
+}
+.container .takeINfoSection .headingSinUpForm {
+  margin: 5rem;
+}
+.container .takeINfoSection h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container .takeINfoSection p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.container .takeINfoSection form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+}
+.container .takeINfoSection form:hover {
+  border: 1px solid #cf711f;
+  box-shadow: 2px 2px 17px 5px #d4b9a2;
+  transition: all ease-in-out 0.2s;
+}
+form * {
+  height: auto;
+  width: auto;
+  min-height: 4.1rem;
+  min-width: 30rem;
+  margin: 1rem 1rem;
+}
+form input {
+  font-size: 1.8rem;
+}
+form input,
+button {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+form label {
+  color: rgb(52, 52, 52);
+  margin: 1rem 1rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+form button {
+  background-color: #cf711f;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  border: 1px solid #45260a;
+  font-size: 1.7rem;
+  box-shadow: 2px 2px 5px 5px #d6c7ba;
+}
+form button:hover {
+  border: 1px solid #cf711f;
+  color: #555;
+  transform: scaleX(0.95);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.sinUpLink {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.sinUpLink a {
+  text-decoration: none;
+  color: #cf711f;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
+}

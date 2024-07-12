@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ActualAdminPageCSS.css">
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="imageSectionInnavbar">
+        <img src="Yummy Food-logos_black.png" alt="Cafe Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li ><a onclick="changeButtonColor()" href="#">Show Sin Up</a></li>
+          <li ><a href="#">Edit Prices</a></li>
+          <li ><a href="#">Add Recipies</a></li>
+          <li ><a href="#">Staff</a></li>
+          <li ><a href="#">Change Password</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="boxes">
+      <div class="showSinUps">
+        <h1>Sin Ups Of customers</h1>
+        <p>Click the below button to show the customers sin ups</p>
+        <button  class="buttons0">Show Sin Up</button>
+      </div>
+      <div class="editPrices">
+        <h1>Edit the Prices</h1>
+        <p>Click the below button to Edit the Prices of Meals </p>
+        <button class="buttons1">Edit Prices</button>
+      </div>
+      <div class="addRecipies">
+        <h1>Add New Recipies</h1>
+        <p>Click the below button to Add New Recipies </p>
+        <button class="buttons2">Add New Recipies</button>
+      </div>
+      
+      <div class="showStaff">
+        <h1>Show the Staff</h1>
+        <p>Click the below button to Show the Staff</p>
+        <button class="buttons3">Show the Staff</button>
+      </div>
+      <div class="changePassAndUserName">
+        <h1>Change the Password</h1>
+        <p>Click the below button to Change the Password</p>
+        <button class="buttons4">Change the Password</button>
+      </div>
+    </div>
+    </div>
+    <script>
+    function changeButtonColor() {
+      document.getElementsByClassName("buttons0").style.backgroundColor = "white";
+    }
+    </script>
+  </body>
+</html>

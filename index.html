@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-adsense-account" content="ca-pub-5844751434609614">
+    <title>Order Food Web</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet"  media="screen and (max-width:620px)"
+    href="phoneCSS.css"/>
+    <link rel="stylesheet"  media="screen and (max-width:1400px)"
+    href="TabletCSS.css"/>
+    <link rel="stylesheet"  media="screen and (min-width:1401px)"
+    href="index.css"/>
+    
+  </head>
+  <body>
+    <div class="navbar"> 
+      <div class="imageSectionInnavbar">
+        <img src="Yummy Food-logos_black.png" alt="Cafe Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href=".howIsItwork" class="scrollHere">How is Work</a>
+          </li>
+          <li>
+            <a href=".meals" class="scrollHere">Meal</a>
+          </li>
+          <li>
+            <a href=".customerReview" class="scrollHere">Testimonials</a>  
+          </li>
+          <li>
+            <a href=".pricing" class="scrollHere">Pricing</a>
+          </li>
+          <li>
+            <button id="goToAdminPage">Admin Page</button>
+          </li> 
+          <li>
+            <button onclick="scrollToElement()">Sin Up Here!</button>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+    <div class="generalInfo">
+      <div class="infoSection">
+        <h1>A healthy meal delivered to you, every single day</h1>
+        <p>
+          The smart 365-days-per-year food subscription that will make you eat
+          healthy again. Tailored to your personal tastes and nutritional needs.
+        </p>
+        <div class="buttonsInInfoSection">
+          <button id="button1" onclick="scrollToElement()">Start Eating Well</button>
+          <button id="button2" onclick="scrollToElementToLearnMore()">Learn More</button>
+        </div>
+      </div>
+      <div class="imageSection">
+        <img src="CafeImage.jpeg" alt="cafe Food Image" />
+      </div>
+    </div>
+
+    <div class="howIsItwork">
+      <div class="headerInHowItItWork">
+        <h1>HOW IT WORKS</h1>
+        <h2>Your daily dose of health in 3 simple steps</h2>
+      </div>
+      <div class="tip1">
+        <div class="infoTip">
+          <h3>01</h3>
+          <h2>Tell us what you like (and what not)</h2>
+          <p>
+            Never again waste time thinking about what to eat! Yummy Food AI will
+            create a 100% personalized weekly meal plan just for you. It makes
+            sure you get all the nutrients and vitamins you need, no matter what
+            diet you follow!
+          </p>
+        </div>
+        <div class="imageInTip">
+          <img src="restaurant.png" alt="phone Image" />
+        </div>
+      </div>
+      <div class="tip2">
+        <div class="imageInTip">
+          <img src="tip2Image.png" alt="phone Image" />
+        </div>
+        <div class="infoTip">
+          <h3>02</h3>
+          <h2>Approve your weekly meal plan</h2>
+          <p>
+            Once per week, approve the meal plan generated for you by YummyFood
+            AI. You can change ingredients, swap entire meals, or even add your
+            own recipes.
+          </p>
+        </div>
+      </div>
+      <div class="tip3">
+        <div class="infoTip">
+          <h3>03</h3>
+          <h2>Receive meals at convenient time</h2>
+          <p>
+            Best chefs in town will cook your selected meal every day, and we
+            will deliver it to your door whenever works best for you. You can
+            change delivery schedule and address daily!
+          </p>
+        </div>
+        <div class="imageInTip">
+          <img src="tip3Image.png" alt="phone Image" />
+        </div>
+      </div>
+    </div>
+    <div class="meals">
+      <div class="heaaderInMeals">
+        <h1>MEALS</h1>
+        <h2>Yummyfood has more than 5,000+ recipes</h2>
+      </div>
+      <div class="cardsInMeal">
+        <div class="card1">
+          <div class="imageInCard">
+            <img src="img1.png" alt="Meal Image" />
+          </div>
+          <div class="infoCard">
+            <h4>VEGETARIAN</h4>
+            <h3>Cafe Stuffs's</h3>
+            <ul>
+              <li>650 calories</li>
+              <li>NutriScore ® 74</li>
+              <li>4.9 rating (537)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="imageInCard">
+            <img src="meal2.png" alt="Meal Image" />
+          </div>
+          <div class="infoCard">
+            <h4>VEGETARIAN</h4>
+            <h3>YummyFood's Special</h3>
+            <ul>
+              <li>650 calories</li>
+              <li>NutriScore ® 74</li>
+              <li>4.9 rating (537)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="imageInCard">
+            <img src="meal3.webp" alt="Meal Image" />
+          </div>
+          <div class="infoCard">
+            <h4>VEGETARIAN</h4>
+            <h3>French Fries</h3>
+            <ul>
+              <li>650 calories</li>
+              <li>NutriScore ® 74</li>
+              <li>4.9 rating (537)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card4">
+          <a href="#">Show More</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="customerReview">
+      
+      <div class="writtenInfo">
+        <div class="heaaderInWritteninfo">
+          <h1>Customer's Review</h1>
+          <h2>Once you try it,you can't go back</h2>
+        </div>
+          <div class="actualReview">
+            <div class="rewiew">
+              <img src="RiteshImage.jpg" alt="customer's Image">
+              <p>I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.</p>
+              <p>-Ritesh Thonge</p>
+            </div>
+            <div class="rewiew">
+              <img src="sujitImage.jpg" alt="customer's Image">
+              <p>Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.</p>
+              <p>-Sujit Gaikawad</p>
+            </div>
+            <div class="rewiew">
+              <img src="samImage.jpg" alt="customer's Image">
+              <p>The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!</p>
+              <p>-Samarth Rode</p>
+            </div>
+            <div class="rewiew">
+              <img src="utkarshImage.jpg" alt="customer's Image">
+              <p>Yummy Food is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!</p>
+              <p>-Utkarsh Tope</p>
+            </div>
+          
+        </div>
+        
+      </div>
+      
+      <div class="images">
+        <div class="sampleImages">
+          <img src="img1.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img2.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img3.webp" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img4.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img5.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img6.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img7.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img1.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img2.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img3.webp" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img4.png" alt="cafe Images">
+        </div>
+        <div class="sampleImages">
+          <img src="img5.png" alt="cafe Images">
+        </div>
+      </div>
+    </div>
+    <div class="pricing">
+      <div class="headerSection">
+        <h1>PRICING</h1>
+        <h2>Eating well without breaking the bank</h2>
+      </div>
+      <div class="cardSection">
+        <div class="cardPricing1">
+          <h3>STARTER</h3>
+          <h2> &#x20B9 1700</h2>
+          <p>per month. That's just 56 &#x20B9 per meal!</p>
+          <ul>
+            <li>1 meal per day</li>
+            <li>Order from 11am to 9pm</li>
+            <li>Free Delivery</li>
+            <li>Get access to latest recipes</li>
+          </ul>
+          <button>Start Eating Well</button>
+        </div>
+        <div class="cardPricing2">
+          <h3>COMPLETE</h3>
+          <h2> &#x20B9 3000</h2>
+          <p>per month. That's just 50 &#x20B9 per meal!</p>
+          <ul>
+            <li>2 meal per day</li>
+            <li>24 Hour Delivery</li>
+            <li>Free Delivery</li>
+            <li>Get access to latest recipes</li>
+          </ul>
+          <button>Start Eating Well</button>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Prices include all applicable taxes. You can cancel at any time.</p>
+      </div>
+    </div>
+    <div class="sinUpForCustomer">
+      <div class="imageInSinUp">
+        <img src="formImage.png" alt="Cafe Image">
+      </div>
+      <div class="sinUpForm">
+        <div class="headingSinUpForm">
+          <h2>Sin Up for Eating healthy Meals!</h2>
+          <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+        </div>
+        <form action="#">
+          <div>
+            <label for="full-name">Full Name</label> <br>
+            <input id="full-name" type="text" placeholder="Sam Rode" required />
+          </div>
+
+          <div>
+            <label for="email">Email address</label> <br>
+            <input id="email" type="email" placeholder="me@example.com" required />
+          </div>
+
+          <div>
+            <label for="select-where">Where did you hear from us?</label> <br>
+            <select id="select-where" required>
+              <option value="">Please choose one option:</option>
+              <option value="friends">Friends and family</option>
+              <option value="youtube">YouTube video</option>
+              <option value="podcast">Podcast</option>
+              <option value="ad">Facebook ad</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <button class="btn btn--form">Sign up now</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="box1">
+       
+        <div class="linksInFooter">
+          <a href="#" target="_blank"><img src="/ImageFolder/twitterImage.png" alt="Twitter Image"></a>
+          <a href="#" target="_blank"><img src="/ImageFolder/instagramImage.png" alt="Twitter Image"></a>
+          <a href="#" target="_blank"><img src="/ImageFolder/facebookImage.png" alt="Twitter Image"></a>
+        </div>
+        <p>Copyright © 2023 by</p>
+        <p>Yummyfood Barshi,All rights reserved.</p>
+      </div>
+      <div class="box2">
+        <h2>Contact us</h2>
+        <p>Yummyfood Cafe, Chatarapati complex, 2nd Floor, Barshi, Solapur 431411</p>
+        <p>9921615078</p>
+        <p>hello@Yummyfood.com</p>
+      </div>
+      <div class="box3">
+        <h2>Account</h2>
+        <a href="#" target="_blank">Create Account</a>
+        <a href="#" target="_blank">Sin In</a>
+        <a href="#" target="_blank">Android App</a>
+        <a href="#" target="_blank">iOS App</a>
+      </div>
+      <div class="box4">
+        <h2>Company</h2>
+        <a href="#" target="_blank">About Yummy Food</a>
+        <a href="#" target="_blank">for Buisness</a>
+        <a href="#" target="_blank">Cooking Info</a>
+        <a href="#" target="_blank">Careers</a>
+      </div>
+      <div class="box5">
+        <h2>Resources</h2>
+        <a href="#" target="_blank">Recipy Dictonary</a>
+        <a href="#" target="_blank">Help Center</a>
+        <a href="#" target="_blank">Privacy & terms</a>
+        
+
+      </div>
+    </footer>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5844751434609614"
+     crossorigin="anonymous"></script>
+    <script>
+      var links = document.querySelectorAll("nav a");
+/*for nav bar*/
+links.forEach(function (link) {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    var target = document.querySelector(this.getAttribute("href"));
+    target.scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
+
+/*For Admin Page botton*/
+var adButton = document.getElementById("goToAdminPage");
+
+  // Add a click event listener to the button
+  adButton.addEventListener("click", function() {
+    // Redirect to another page
+    window.location.href = "ActualAdminPage.html";
+  });
+
+/*for navbar button*/
+function scrollToElement() {
+  var element = document.querySelector(".sinUpForCustomer");
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+
+function scrollToElementToLearnMore() {
+  var element = document.querySelector(".howIsItwork");
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+
+
+
+    </script>
+  </body>
+  
+</html>

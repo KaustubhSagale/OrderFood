@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="logINPageCSS.css" />
+    <title>Log In</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imageSection">
+        <img src="formImage.png" alt="Cafe Image" />
+      </div>
+      <div class="takeINfoSection">
+        <div class="headingSinUpForm">
+          <h2>Welcome Back!</h2>
+          <p>Enter Your Username and Password.</p>
+        </div>
+        <form action="#">
+          <div>
+            <label for="email">Username</label> <br />
+            <input
+              id="email"
+              type="email"
+              placeholder="me@example.com"
+              onclick="changeColor()"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="Password">Password</label> <br />
+            <input
+              id="Password"
+              type="password"
+              placeholder="**********"
+              required
+            />
+          </div>
+          <div>
+            <button>Log In</button>
+          </div>
+        </form>
+        <div class="sinUpLink">
+          <p>Don't Have Account?</p>
+          <a href="#">Sin Up</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      let myElement = document.getElementById("Password");
+      myElement.addEventListener("click", function () {
+        myElement.style.borderColor = "#cf711f";
+        myElement.style.border = "2px solid #cf711f";
+      });
+
+      let myElement1 = document.getElementById("email");
+      myElement1.addEventListener("click", function () {
+        myElement1.style.borderColor = "#cf711f";
+        myElement1.style.border = "2px solid #cf711f";
+      });
+    </script>
+  </body>
+</html>
